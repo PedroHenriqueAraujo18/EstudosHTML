@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial scale = 1">
+        </head>
+        <body>
+            <h1>Imagens dinâmicas</h1>
+            <p>Imagem de acordo com negocio</p>
+            <picture>
+                <!-- Correção no media e no srcset -->
+                  <!-- Imagem para telas com largura máxima de 350px -->
+            <source media="(max-width: 350px)" srcset="../imagens/fotos_pequena.png" type="image/png">
+            <!-- Imagem para telas com largura máxima de 750px -->
+            <source media="(max-width: 750px)" srcset="../imagens/fotos_media.png" type="image/png">
+            <!-- Imagem para telas com largura máxima de 1050px -->
+            <source media="(max-width: 1050px)" srcset="../imagens/fotos_grande.png" type="image/png">
+            <!-- Imagem padrão para outros casos -->
+            <img src="../imagens/fotos_grande.png" alt="foto_grande">
+            </picture>
+        </body>
+    </html>
