@@ -9,7 +9,7 @@
             "type": "firefox",
             "request": "launch",
             "name": "Open ex10.html",
-            "file": "c:\\Users\\pedro\\Desktop\\HTML\\exercicios\\ex10.html"
+            "file": "c:\\Users\\pedro\\Desktop\\HTML\\exercicios\\"
         }
     ]
 }
