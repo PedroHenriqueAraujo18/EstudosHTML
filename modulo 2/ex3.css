@@ -1,0 +1,30 @@
+@charset   "UTF-8";
+
+*{
+    display: inline-block;
+}
+.um{
+    text-align: center;
+    background-color: rgb(6, 71, 93);
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(17, 95, 55);
+}
+.dois{
+    text-align: center;
+    background-color: rgba(25, 170, 219, 0.445);
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(17, 95, 55);
+}
+.tres{
+    text-align: center;
+    background-color: rgb(8, 18, 123);
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(17, 95, 55);
+}
+
+.um:hover{
+    background-color: rgb(251, 5, 30);
+}
