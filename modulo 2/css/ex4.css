@@ -1,0 +1,23 @@
+body{
+ background-color: antiquewhite;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(139, 137, 216);
+}
+a:hover{
+text-decoration: underline;
+color: blue;
+}
+a:active{
+    color: rgb(0, 0, 144);
+}
+a::after{
+    content: '<-';
+}
+a::before{
+    content: '->';
+}
