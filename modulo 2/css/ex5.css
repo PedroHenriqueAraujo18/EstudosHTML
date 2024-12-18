@@ -1,0 +1,24 @@
+h1{
+background-color: blanchedalmond;
+height: 200px;
+width: 200px;
+text-align: center;
+padding: 10px;
+border-radius: 5px;
+margin:0 auto;
+outline-style: groove;
+outline-color: azure;
+outline-offset: 0px;
+}
+p{
+  background-color: lavender;
+  text-align: center;
+  height : 200px;
+  width : 200px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 auto;
+  outline-style: groove;
+  outline-color: black;
+  outline-width: 5px;
+}
