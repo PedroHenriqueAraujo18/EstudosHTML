@@ -1,0 +1,41 @@
+nav{
+  text-decoration: double;
+  color:antiquewhite;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+  outline-color: black;
+  outline-style: groove;
+  width: 1310px;
+  height: 30px;
+}
+
+article{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: double;
+    color: rgb(7, 6, 6); /* Cor do texto dentro de article */
+}
+section#artigos{
+    text-decoration: double;
+    color: rgb(19, 15, 15);
+}
+section#noticias{
+    text-decoration:double;
+    color: lightblue; /* Cor do texto dentro de section com o id "noticias" */
+}
+section article h1{
+    color :red;
+}
+section article aside {
+    color: green;
+}
+footer{
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    text-decoration: double;
+    color: #000;
+}
+body{
+    background-color:grey;
+}
