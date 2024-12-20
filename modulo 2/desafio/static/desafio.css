@@ -1,0 +1,162 @@
+
+@font-face {
+    font-family: 'Android'; /* Nome que você usará no CSS */
+    src: url('../fontes/idroid.otf') format('truetype'); /* Caminho até o arquivo */
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui borda e padding nas dimensões */
+    width: 100%;
+    height: 100%;
+}
+main{
+    background-image: linear-gradient(0deg,#0C8032,#218040,#14CC50,#19FF65,#7CFFA7);
+    text-align: center;
+    text-decoration: double;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto; /* Garante que não há margens ao redor */
+}
+main nav{
+        text-align: left;
+}
+
+.navbar a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 10px 15px; /* Adiciona espaço interno ao redor do texto */
+    display: inline-block; /* Permite aplicar padding */
+    border-radius: 5px; /* Bordas arredondadas para a caixa */
+    transition: background-color 0.3s ease; /* Efeito suave */
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Caixa transparente ao passar o mouse */
+    color: white; /* Mantém a cor do texto */
+}
+
+section{
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px; /* Aumente o espaçamento interno */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    width: 830px; /* Define a largura */
+    box-sizing: border-box;
+    border-radius: 0px 0px 10px 10px;
+}
+article#historia h1{
+
+    color:#218040;
+    font-family: 'Android',sans-serif;
+}
+article#primeira_versao h2 {
+    background-image: linear-gradient(45deg,#4cda7b, #7CFFA7);
+    font-family: 'Android', sans-serif;
+    color: #218040;
+   
+}
+.container {
+    display: flex; /* Configura as listas para serem exibidas lado a lado */
+    justify-content: left; /* Centraliza horizontalmente o conteúdo */
+    gap: 400px; /* Adiciona espaçamento entre as listas */
+}
+h3.aprender_mais{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #14CC50;
+    border-radius: 10px 10px 0px 0px;
+}
+.conteudo p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.final{
+    font-family: Arial, Helvetica, sans-serif;
+}
+strong.nome_desenvolvedor{
+    color: white;
+}
+.conteudo{
+    background-color: #7CFFA7;
+    border-radius: 10px;
+}
+strong.color_text{
+    color: #218040;
+}
+a.link_personalizado{
+    text-decoration: none;
+    color:#218040;
+    
+}
+
+div.extra{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul.lista, ul.lista_2 {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none; /* Remove marcadores padrão */
+    padding: 0;
+    margin: 0;
+    height: auto; /* Ajusta automaticamente a altura */
+    width: 200px; /* Define a largura das listas */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+article#primeira_versao p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article#historia p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article#mascote p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article#mascote h2{
+    color:#218040;
+    font-family: 'Android',sans-serif;
+}
+img {
+    max-width: 100%; /* Faz a imagem nunca exceder o tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaçamento extra ao redor de imagens */
+    margin: 0 auto; /* Centraliza a imagem dentro do contêiner */
+}
+
+strong.bugdroid_color{
+    color: #218040;
+}
+strong.irina_blok_color_name{
+    color: #218040;
+}
+div.video {
+    display: block;
+    
+    margin: 20px auto; /* Centraliza e adiciona espaçamento */
+  
+    outline-style: solid;
+    outline-color: #218040;
+    outline-width: 15px;
+   
+    box-sizing: border-box;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+div.video iframe {
+    display: block;
+    width: 790px; /* Certifique-se de que a largura está definida */
+    height: 355px; /* Certifique-se de que a altura está definida */
+    margin: 0 auto;
+}
+
+
+body{
+    background-color: #19FF65;
+}
+footer{
+    text-align: center;
+    background-color: #0C8032;
+    padding: 0px;
+    height: fit-content;
+}
