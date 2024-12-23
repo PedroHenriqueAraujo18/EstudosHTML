@@ -1,0 +1,22 @@
+div.quadrado{
+    border-radius: 20px;
+    border:solid black;
+    height: 200px;
+    margin:10px;
+background-image: url(../imagens/wallpaper002.jpg);
+}
+div#q1{
+        background-position: right top;
+    }
+div#q2{
+        background-position: center top;
+    }
+div#q3{
+        background-position: left center;
+    }
+    div#q4{
+        background-position: right bottom;
+    }
+    div#q5{
+        background-position: center center;
+    }
