@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms_02</title>
+</head>
+<body>
+    <form action="../js/cadastro.js" method="post">
+        <p>
+            <label for="iuser">Usuário:</label>
+            <input type="text" name="user" id="iuser" required maxlength="255" size="20" placeholder="Nome">
+        </p>
+        <p>
+            <label for="ipassword">Senha:</label>
+            <input type="password" name="password" id="ipassword" required minlength="8" maxlength="255" placeholder="Senha">
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar">
+    </form>
+</body>
+</html>
