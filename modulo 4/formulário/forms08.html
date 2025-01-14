@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>output</title>
+</head>
+<body>
+    <form action="../js/cadastro.js" method="get">
+
+        <p>
+            <label for="inumber">Numero:</label>
+            <input type="number" name="number" id="inumber" required oninput="isoma.innerHTML=Number(inumber.value) + Number(inumber2.value)">
+        </p>
+    
+        <p>
+            <label for="2inumber">Numero 2:</label>
+            <input type="number" name="number" id="inumber2" required oninput="isoma.innerHTML=Number(inumber.value) + Number(inumber2.value)">
+        </p>
+
+        <p>
+
+            <label for="isoma">Soma:</label>
+            <output id="isoma"></output>
+
+        </p>
+
+        <p>
+            <input type="reset" value="Apagar">
+            <input type="submit" value="Enviar">
+        </p>
+
+    </form>
+    
+</body>
+</html>
