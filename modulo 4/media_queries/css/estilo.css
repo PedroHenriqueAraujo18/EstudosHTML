@@ -9,6 +9,18 @@ body,html{
 header{
     background-color: #0A7373;
 }
+span#burguer{
+display: block;
+text-align: center;
+padding: 10px;
+}
+span#burguer:hover{
+    
+    background-color: rgb(122, 125, 126);
+   
+    }
+
+
 header > h1{
     padding: 10px;
     text-align: center;
