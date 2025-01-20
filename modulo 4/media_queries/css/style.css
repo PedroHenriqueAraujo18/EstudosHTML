@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* Mobile First*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+html{
+    height: 100vh;
+}
+body{
+    background: url(../../Cap25-Imagens/back-phone.jpg);
+    background-repeat: no-repeat;
+}
+main{
+    background-color: rgb(216, 239, 241);
+    width: 90vw;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color:white;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+img{
+    display: block;
+    margin: auto;
+}
+
+img#phone{
+    display: block;
+}
+img#pc{
+    display: none;
+}
+img#print{
+    display: none;
+}
+img#tv{
+    display: none;
+}
+img#tablet{
+    display: none;
+}
