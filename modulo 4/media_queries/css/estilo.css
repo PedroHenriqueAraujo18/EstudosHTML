@@ -1,56 +1,63 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
 }
-body,html{
-    background-color: #010221;
+body, html {
+    background-image:linear-gradient(-45deg,#FF4C0C,#f76733#FF7300,#FF9B00,#FFBC00,#e3a01b);
 }
-header{
-    background-color: #0A7373;
+header {
+    background-color: #FF4C0C;
 }
-span#burguer{
-display: block;
-text-align: center;
-padding: 10px;
+span#burguer {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #f76733;
+    cursor: pointer;
 }
-span#burguer:hover{
-    
-    background-color: rgb(122, 125, 126);
-   
-    }
+span#burguer:hover {
+    background-color: #FF7300;
+}
 
-
-header > h1{
+header > h1 {
     padding: 10px;
     text-align: center;
 }
-menu{
+menu {
     display: block;
+    width: 100%;
+    padding: 10px 0;
 }
-menu > ul{
-    list-style-type: none;
-    text-decoration: none;
+menu > ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f76733;
 }
-menu >ul >li{
+menu > ul > li {
+    margin: 0 10px; /* Espaçamento entre itens */
+}
+menu > ul > li > a {
     display: block;
-    padding: 10px;
+    padding: 10px 20px;
     text-decoration: none;
-    text-shadow: 1px solid black;
-    background-color: #EDAA25;
+    color: rgb(0, 0, 0);
+    background-color: #f76733;
     text-align: center;
-    border-top:2px solid black ;
+    border-radius: 5px;
+    opacity: 0.9; /* Transparência inicial */
+    transition: background-color 0.3s ease, opacity 0.3s ease; /* Transições suaves */
 }
-menu >ul >li >a:hover{
-    background-color: #B7BF99;
-    transition: 0.3s ease;
-    text-decoration: none;
+menu > ul > li > a:hover {
+    background-color: #e3a01b;
+    opacity: 1; /* Transparência total no hover */
 }
-main{
+main {
     width: 90vw;
-    background-color:#C43302 ;
+    background-color: #FFBC00;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
 }
-/* cor laranja #C43302*/
